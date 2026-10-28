@@ -8,7 +8,9 @@ const Footer = () => {
             <div className="footer__container">
                 <p className='footer__text'></p>
                 <ul>
-                    
+                    <li>
+                        
+                    </li>
                 </ul>
             </div>
         </div>
