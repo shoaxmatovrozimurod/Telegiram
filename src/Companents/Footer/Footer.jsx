@@ -11,7 +11,6 @@ const Footer = () => {
                     <li className='footer__item'> <a className='footer__item-link' href="#">Telegiram</a> </li>
                     <li className='footer__item'> <a className='footer__item-link' href="#">Linkedin</a> </li>
                     <li className='footer__item'> <a className='footer__item-link' href="#">YouTube</a> </li>
-
                 </ul>
             </div>
         </div>
