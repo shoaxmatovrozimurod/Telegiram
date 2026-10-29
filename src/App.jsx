@@ -11,9 +11,9 @@ const App = () => {
     <BrowserRouter>
     <Routes>
       <Route element = {<Layout />}>
-      <Route>
+      <Route index element = {<HomePages />} />
 
-      </Route>
+      
 
       </Route>
     </Routes>
