@@ -12,6 +12,8 @@ const App = () => {
     <Routes>
       <Route element = {<Layout />}>
       <Route index element = {<HomePages />} />
+      <Route path='home' element = { <HomePages />} />
+
 
       
 
