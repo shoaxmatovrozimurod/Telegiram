@@ -7,7 +7,10 @@ import HomePages from "./Pages/HomePages/HomePages";
 const App = () => {
   return (
     <>
+    <BrowserRouter>
     
+    
+    </BrowserRouter>
 
     </>
   )
