@@ -2,6 +2,7 @@ import React from 'react'
 import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import HomePages from "./Pages/HomePages/HomePages";
+import Layout from './Companents/Layout/Layout';
 
 
 const App = () => {
@@ -9,8 +10,11 @@ const App = () => {
     <>
     <BrowserRouter>
     <Routes>
+      <Route element {<Layout />}>
       <Route>
         
+      </Route>
+
       </Route>
     </Routes>
 
