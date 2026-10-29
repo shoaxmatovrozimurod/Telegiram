@@ -10,9 +10,9 @@ const App = () => {
     <>
     <BrowserRouter>
     <Routes>
-      <Route element {<Layout />}>
+      <Route element = {<Layout />}>
       <Route>
-        
+
       </Route>
 
       </Route>
