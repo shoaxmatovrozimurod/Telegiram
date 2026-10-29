@@ -3,7 +3,10 @@ import { Header } from '../Header/Header'
 
 const Layout = () => {
   return (
-    <div>Layout</div>
+    <>
+    <Header />
+    
+    </>
   )
 }
 
