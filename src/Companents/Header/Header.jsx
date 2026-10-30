@@ -16,7 +16,6 @@ export const Header = () => {
             <h1 className='header__logo'>Telegraph</h1>
           </a>
 
-          {/* Menyu qismi */}
           <div className={`header__menu ${isMenuOpen ? 'active' : ''}`}>
             <button className='header__btn'>Try Beta</button>
           </div>
