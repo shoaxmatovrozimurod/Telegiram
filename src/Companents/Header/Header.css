@@ -1,0 +1,62 @@
+/* Asosiy shriftni ulash (ixtiyoriy, agar loyihada bo'lmasa) */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+.header {
+  background-color: #ffffff;
+  border-bottom: 1px solid #e5e7eb;
+  padding: 16px 0;
+  font-family: 'Inter', sans-serif;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__link-logo {
+  text-decoration: none;
+  color: #111827;
+  transition: opacity 0.2s ease;
+}
+
+.header__link-logo:hover {
+  opacity: 0.8;
+}
+
+.header__logo {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+
+.header__btn {
+  background-color: #111827;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.header__btn:hover {
+  background-color: #374151;
+}
+
+.header__btn:active {
+  transform: scale(0.96);
+}
