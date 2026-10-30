@@ -52,7 +52,5 @@
   transition: background-color 0.2s ease, transform 0.1s ease;
 }
 
-.header__btn:hover {
-  background-color: #374151;
-}
+
 
