@@ -1,37 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
 
-.header {
-  background-color: #ffffff;
-  border-bottom: 1px solid #e5e7eb;
-  padding: 16px 0;
-  font-family: 'Inter', sans-serif;
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
-}
-
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 24px;
-}
-
-.header__container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.header__link-logo {
-  text-decoration: none;
-  color: #111827;
-  transition: opacity 0.2s ease;
-}
-
-.header__link-logo:hover {
-  opacity: 0.8;
-}
 
 
 
