@@ -40,17 +40,6 @@
   letter-spacing: -0.5px;
 }
 
-.header__btn {
-  background-color: #111827;
-  color: #ffffff;
-  font-size: 14px;
-  font-weight: 600;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
-  transition: background-color 0.2s ease, transform 0.1s ease;
-}
 
 
 
