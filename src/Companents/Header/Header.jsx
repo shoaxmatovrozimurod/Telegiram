@@ -21,7 +21,6 @@ export const Header = () => {
             <button className='header__btn'>Try Beta</button>
           </div>
 
-          {/* Burger tugmasi */}
           <div 
             className={`header__burger ${isMenuOpen ? 'active' : ''}`} 
             onClick={toggleMenu}
